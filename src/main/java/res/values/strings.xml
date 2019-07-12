@@ -1,0 +1,83 @@
+<!--
+    Copyright 2019 Google LLC
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="app_name">Kerberos Authenticator</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="title">Active Directory Credentials</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="username">Username</string>
+    <!-- [CHAR_LIMIT=300] -->
+    <string name="username_description">An AD username that has privileges to access the website secure with SPNEGO (should be a regular user, not admin).</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="password">Password</string>
+    <!-- [CHAR_LIMIT=300] -->
+    <string name="password_description">AD password associated with this account.</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="ad_domain">Active Directory Domain</string>
+    <!-- [CHAR_LIMIT=300] -->
+    <string name="ad_domain_description">The organization’s Active Directory domain.</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="service_principal">AD Controller</string>
+    <!-- [CHAR_LIMIT=300] -->
+    <string name="service_principal_description">hostname of the Active Directory server (not FQDN).</string>
+    <!-- Name of the managed configuration field for controlling debugging -->
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="sensitive_debug_data">Sensitive Debug Data</string>
+    <!-- Description of the managed configuration field for controlling debugging -->
+    <!-- [CHAR_LIMIT=300] -->
+    <string name="sensitive_debug_data_description">Whether to emit debugging statements that include credentials.</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="account_type" translatable="false">com.goog.afw.KerberosAuthenticator</string>
+    <!-- [CHAR_LIMIT=20] -->
+    <string name="ok_btn">Dismiss</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="login_btn">LOGIN</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="last_user_auth_time">N/A</string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="last_user_auth_text">Last user authentication</string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="last_service_auth_time">N/A</string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="last_service_auth_text">Last service authentication</string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="version_error">Unknown Version</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="adding_account_unsupported_title">
+        User-added accounts are not supported
+    </string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="adding_account_missing_config_title">
+        Account configuration is missing
+    </string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="adding_account_unsupported_text">
+        To add Active Directory account details to your managed device, please contact your IT administrator.
+    </string>
+    <!-- [CHAR_LIMIT=10] -->
+    <string name="subtitle_user_creds" translatable="false">%1$s@%2$s</string>
+    <!-- [CHAR_LIMIT=50] -->
+    <string name="not_available">N/A</string>
+    <!-- [CHAR_LIMIT=20] -->
+    <string name="valid">Valid</string>
+    <!-- [CHAR_LIMIT=20] -->
+    <string name="from">from</string>
+    <!-- [CHAR_LIMIT=15] -->
+    <string name="until">until</string>
+    <!-- [CHAR_LIMIT=100] -->
+    <string name="enter_pw">Enter Password</string>
+</resources>

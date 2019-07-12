@@ -1,0 +1,38 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/footer"
+      style="@style/Widget.AppCompat.ButtonBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:paddingBottom="@dimen/padding_bottom_footer"
+      android:orientation="horizontal"
+      android:paddingHorizontal="@dimen/padding_horizontal_authenticator"
+      >
+
+    <TextView
+        android:id="@+id/version_no"
+        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_small_material"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:backgroundTint="@color/appBlue"
+        android:textColor="@color/simpleWhite"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_btn"
+        />
+  </LinearLayout>
+</merge>

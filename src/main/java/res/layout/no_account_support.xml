@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kerberos_authenticator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <include layout="@layout/authenticator_header"/>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_horizontal_authenticator"
+        >
+
+      <TextView
+          style="@style/TextAppearance.AppCompat.Subhead"
+          android:id="@+id/decline_explanation"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingTop="@dimen/padding_top_header"
+          android:text="@string/adding_account_unsupported_title"
+          />
+
+      <TextView
+          style="TextAppearance.AppCompat.Body1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawablePadding="@dimen/padding_info_text_drawable"
+          android:drawableStart="@drawable/ic_error_outline_red_24dp"
+          android:text="@string/adding_account_unsupported_text"
+          android:textColor="@color/material_grey_600"
+          />
+
+    </LinearLayout>
+  </ScrollView>
+
+  <include layout="@layout/authenticator_footer"/>
+</LinearLayout>

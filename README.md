@@ -55,6 +55,15 @@ expires and a valid ticket is needed, it will automatically get renewed and
 stored again in the Account Manager. Some debug service ticket information will
 be stored securely in a file.
 
+## Participating
+
+There is a public mailing list for discussing Kerberos authentication in
+Android in general, asking questions on the codebase or suggesting improvements:
+[https://groups.google.com/forum/#!forum/android-kerberos-authenticator](https://groups.google.com/forum/#!forum/android-kerberos-authenticator)
+It is suggested to direct technical questions first to this group, and open
+a GitHub issue after there is agreement in the group that the issue is
+one that should be addressed in the codebase.
+
 ## Deployment
 
 This section provides a method for building your own apk from the existing code
